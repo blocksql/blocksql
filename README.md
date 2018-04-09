@@ -14,25 +14,25 @@
 
 ### Esql 主要特点
 
-    *Esql 基本区块链存储，保证数据永久保存，数据库大小没有限制。
+   *Esql 基本区块链存储，保证数据永久保存，数据库大小没有限制。
 
-    *Esql使用区块链的Address 私钥签名访问，比普通数据库的用户名密码访问更加安全。
+   *Esql使用区块链的Address 私钥签名访问，比普通数据库的用户名密码访问更加安全。
 
    *Esql 专注于数据库操作，让主合约专注于业务逻辑。
 
    *Esql 设置任何属性的索引 (如：FirstName="Sameer",Address="8 Gandhi Road")来实现更快的排序。
 
-    *Esql 支持丰富的查询表达式。查询指令使用JSON形式的标记，可轻易查询文档中内嵌的对象及数组。
+   *Esql 支持丰富的查询表达式。查询指令使用JSON形式的标记，可轻易查询文档中内嵌的对象及数组。
 
-    *Esql 使用update()命令可以实现替换完成的文档（数据）或者一些指定的数据字段 。
+   *Esql 使用update()命令可以实现替换完成的文档（数据）或者一些指定的数据字段 。
 
-    *Esql中的Map/reduce主要是用来对数据进行批量处理和聚合操作。
+   *Esql中的Map/reduce主要是用来对数据进行批量处理和聚合操作。
 
-    *Esql和Reduce。Map函数调用emit(key,value)遍历集合中所有的记录，将key与value传给Reduce函数进行处理。
+   *Esql和Reduce。Map函数调用emit(key,value)遍历集合中所有的记录，将key与value传给Reduce函数进行处理。
 
-    *Esql允许在服务端执行脚本，可以用Javascript编写某个函数，直接在服务端执行，也可以把函数的定义存储在服务端，下次直接调用即可。
+   *Esql允许在服务端执行脚本，可以用Javascript编写某个函数，直接在服务端执行，也可以把函数的定义存储在服务端，下次直接调用即可。
 
-    *Esql支持各种编程语言:RUBY，PYTHON，JAVA，C++，PHP，C#等多种语言。
+   *Esql支持各种编程语言:RUBY，PYTHON，JAVA，C++，PHP，C#等多种语言。
 
-    *Esql安装简单。
+   *Esql安装简单。
 
